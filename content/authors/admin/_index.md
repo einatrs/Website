@@ -1,55 +1,56 @@
 ---
 authors:
 - admin
-avatar_image: user-full.png
-bio: My research interests include distributed robotics, mobile computing and programmable
-  matter.
+avatar_image: "avatar.png"
+bio: 
 btn:
-- label: Download Resume
-  url: https://sourcethemes.com/academic/docs/install/
-display_education: false
+# - label: Download Resume
+#   url: https://sourcethemes.com/academic/docs/install/
+
+# Should the user's education and interests be displayed?
+display_education: true
+
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - course: PhD in Cognitive Psychology
+    institution: University of Haifa
+    year: 2015
+  - course: MA in Cognitive Psychology
+    institution: University of Haifa
     year: 2008
-email: ""
-interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-name: Michael Vahn
-organizations:
-- name: Stanford University
-  url: ""
-role: Professor of Artificial Intelligence
+  - course: BSc in Psychology and Music (double degree)
+    institution: University of Haifa
+    year: 2005
+name: Einat Rashal
+
 social:
 - icon: envelope
   icon_pack: fas
   link: '#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+# - icon: twitter
+#   icon_pack: fab
+#   link: https://twitter.com/GeorgeCushen
 - icon: google-scholar
   icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: https://scholar.google.com/citations?user=jbq21scAAAAJ&hl=en
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/einatrs
 superuser: true
 user_groups:
 - Researchers
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a researcher working in the field of visual perception and attention.
+I did my studies at the University of Haifa in Israel. Since graduating, I have held postdoc positions at KU Leuven and UGhent in Belgium and at EPFL in Switzerland. I have 10 years of teaching experience at different higher education institutions in Israel. My favorite subject to teach is Research Methods and Statistics. 
 
-![reviews](../../img/certifacates.jpg)
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum. The point of using Lorem Ipsum. distracted by the readable content of a page.
+Research interests:
+- perceptual grouping
+- figure-ground organization
+- prioritization of attention control signals
+- programming in RStudio
+- data science
+- Bayesian statistics
+
