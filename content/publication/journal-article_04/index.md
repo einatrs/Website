@@ -6,7 +6,7 @@ authors:
 
 date: "2017-01-01T00:00:00Z"
 doi: "http://dx.doi.org/10.1037/xhp0000308"
-featured: true
+featured: false
 image: 
   # caption: 'Image credit: #[**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
   focal_point: ""

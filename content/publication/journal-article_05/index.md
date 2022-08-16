@@ -10,7 +10,7 @@ featured: false
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
   focal_point: ""
-  preview_only: true
+  preview_only: false
 projects: []
 publication: '*Journal of Experimental Psychology: Human Perception and Performance, 43*(3), 608–618'
 publication_short: "*JEP:HPP*"

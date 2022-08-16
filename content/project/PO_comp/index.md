@@ -21,4 +21,4 @@ url_slides: ""
 url_video: ""
 ---
 
-This is where I describe my PhD project and Rashal et al (2017a) &  and Rashal & Kimchi (under review)?
+*Coming soon... click on the tag to reach the publications relevant to this project*

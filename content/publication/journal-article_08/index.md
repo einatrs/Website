@@ -7,7 +7,7 @@ authors:
 
 date: "2022-01-01T00:00:00Z"
 doi: "https://doi.org/10.3758/s13414-021-02402-1"
-featured: true
+featured: false
 image: 
   # caption: 'Image credit: #[**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
   focal_point: ""

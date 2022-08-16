@@ -24,4 +24,4 @@ url_slides: ""
 url_video: ""
 ---
 
-This is where I describe the MAC-Brain project and Yeshurun & Rashal (2017)
+*Coming soon... click on the tag to reach the publications relevant to this project*
