@@ -5,7 +5,8 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 30  # Order that this section will appear.
 
-title = "Teaching"
+title = "Experience"
+subtitle = "**Teaching**"
 
 # Date format for experience
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -17,36 +18,31 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "CEO"
-  company = "GenCoin"
+  title = "Instructor"
+  company = "Open University"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = ""
-  description = """
-  Responsibilities include:
+  location = "Multiple locations, Israel"
+  date_start = "2012-01-01"
+  date_end = "2017-01-01"
+  description = "Courses: Research Methods for Social Sciences"
   
-  * Analyzing
-  * Modelling
-  * Deploying
-  """
 
 [[experience]]
-  title = "Professor"
-  company = "University X"
+  title = "Instructor (TA)"
+  company = "Emeq Izrael College"
   company_url = ""
-  location = "California"
-  date_start = "2016-01-01"
-  date_end = "2016-12-31"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Afula, Israel"
+  date_start = "2009-01-01"
+  date_end = "2011-12-31"
+  description = "Courses: Research Methods for Social Sciences"
 
 [[experience]]
-  title = "Professor"
-  company = "University Y"
+  title = "Instructor (TA) and Course Coordinator"
+  company = "University of Haifa"
   company_url = ""
-  location = "California"
-  date_start = "2017-01-01"
-  date_end = "2016-12-30"
-  description = """Taught electronic engineering and researched semiconductor physics."""
+  location = "Haifa, Israel"
+  date_start = "2005-01-01"
+  date_end = "2008-12-30"
+  description = "Courses: Introduction to Psychology, and various supporting lectures."
   
 +++
