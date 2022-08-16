@@ -19,34 +19,29 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Postdoc Fellow"
-  company = "UGhent"
+  company = "UGent"
   company_url = ""
-  location = "Ghent, Belgium"
+  location = "Belgium"
   date_start = "2019-01-01"
   date_end = ""
-  description = """Project: *MAC-BRAIN*
-  
-  Collaborators: Nico, Elisa, Leo, Sulianne, Emiliano, Carola, Anneleen, Mehdi."""
+  description = "Project: *MAC-BRAIN*"
 
 [[experience]]
   title = "Postdoc Fellow"
   company = "EPFL"
   company_url = ""
-  location = "Lausanne, Switzerland"
+  location = "Switzerland"
   date_start = "2016-07-01"
   date_end = "2018-12-31"
-  description = """Project: *Perceptual Dominance*
-  
-  Collaborators: Aline, Ophélie, Michael."""
+  description = "Project: *Perceptual Dominance*"
   
 [[experience]]
   title = "Postdoc Fellow"
   company = "KU Leuven"
   company_url = ""
-  location = "Leuven, Belgium"
+  location = "Belgium"
   date_start = "2015-08-01"
   date_end = "2016-06-30"
-  description = """Project: *Attentional Requirements of Perceptual Organization in Depth*
-  
-  Collaborators: Johan."""
+  description = "Project: *Attentional Requirements of Perceptual Organization in Depth*"
+
 +++
