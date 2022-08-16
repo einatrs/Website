@@ -26,7 +26,7 @@ name: Einat Rashal
 social:
 - icon: envelope
   icon_pack: fas
-  link: '#contact'
+  link: einatrashal@gmail.com
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/GeorgeCushen
@@ -36,6 +36,7 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/einatrs
+
 superuser: true
 user_groups:
 - Researchers
@@ -43,7 +44,7 @@ user_groups:
 ---
 
 I am a researcher working in the field of visual perception and attention.
-I did my studies at the University of Haifa in Israel. Since graduating, I have held postdoc positions at KU Leuven and UGhent in Belgium and at EPFL in Switzerland. I have 10 years of teaching experience at different higher education institutions in Israel. My favorite subject to teach is Research Methods and Statistics. 
+I did my studies at the University of Haifa in Israel. Since graduating, I have held postdoc positions at KU Leuven and UGent in Belgium and at EPFL in Switzerland. I have 10 years of teaching experience at different higher education institutions in Israel. My favorite subject to teach is Research Methods and Statistics. 
 
 
 Research interests:

@@ -17,7 +17,7 @@ tags:
 - Cueing
 - Statistical Learning
 - EEG
-title: Attention control
+title: Attention Control
 url_code: ""
 url_pdf: ""
 url_slides: ""
