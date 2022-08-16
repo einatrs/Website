@@ -3,10 +3,10 @@
 widget = "portfolio"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 65  # Order that this section will appear.
+weight = 40  # Order that this section will appear.
 
 title = "Projects"
-subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
+#subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
 
 [content]
   # Page type to display. E.g. project.
@@ -24,22 +24,46 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
   [[content.filter_button]]
     name = "All"
     tag = "*"
+
+  [[content.filter_button]]
+    name = "Attention"
+    tag = "Attention"
   
   [[content.filter_button]]
-    name = "Deep Learning"
-    tag = "Deep Learning"
+    name = "Crowding"
+    tag = "Crowding"
   
-  [[content.filter_button]]
-    name = "Other"
-    tag = "Demo"
+  # [[content.filter_button]]
+  #   name = "Salience"
+  #   tag = "Salience"
+  # 
+  # [[content.filter_button]]
+  #   name = "Cueing"
+  #   tag = "Cueing"
   
+  # [[content.filter_button]]
+  #   name = "EEG"
+  #   tag = "EEG"
+
+  # [[content.filter_button]]
+  #   name = "Statistical Learning"
+  #   tag = "Statistical Learning"
+
   [[content.filter_button]]
-    name = "Human"
-    tag = "human"
-  
+    name = "Perceptual Organization"
+    tag = "Perceptual Organization"
+
   [[content.filter_button]]
-    name = "Robotics"
-    tag = "robotics"
+    name = "Objecthood"
+    tag = "Objecthood"
+    
+  # [[content.filter_button]]
+  #   name = "Inattention"
+  #   tag = "Inattention"
+
+  # [[content.filter_button]]
+  #   name = "Competition"
+  #   tag = "Competition"    
 
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
@@ -61,11 +85,11 @@ subtitle = "ALL THINGS ARE DIFFICULT BEFORE THEY ARE EASY"
   #   Any HTML color name or Hex value is valid.
   
   # Background color.
-  # color = "navy"
+  # color = "white"
   
   # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
+  # gradient_start = "pink"
+  # gradient_end = "green"
   
   # Background image.
   # image = "background.jpg"  # Name of image in `static/img/`.

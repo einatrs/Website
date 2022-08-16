@@ -19,8 +19,9 @@ publication_types:
 publishDate: "2017-03-01T00:00:00Z"
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
 #   ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-# tags:
-# - Source Themes
+tags:
+- Perceptual Organization
+- Competition
 title: The Time Course of the Competition Between Grouping Organizations
 ---
 

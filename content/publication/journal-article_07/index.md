@@ -21,8 +21,9 @@ publication_types:
 publishDate: "2020-08-01T00:00:00Z"
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus
 #   ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-# tags:
-# - Source Themes
+tags:
+- Objecthood
+- Perceptual Organization
 title: Perceptual grouping leads to objecthood effects in the Ebbinghaus illusion
 ---
 
