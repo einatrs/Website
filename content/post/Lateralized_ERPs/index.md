@@ -3,7 +3,7 @@ authors:
 - admin
 categories: []
 date: "2022-08-17T00:00:00Z"
-draft: flase
+draft: true
 featured: true
 gallery_item:
 
@@ -19,8 +19,8 @@ title: Lateralized ERPs
 ---
 
 
+Coming soon...
 
-![png](./academia_0_0.png)
 
 
 
