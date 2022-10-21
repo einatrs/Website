@@ -4,6 +4,7 @@
 # marketing
 microsoft_clarity = ""
 google_analytics = "G-0NJHGHZ0CC"
+google_tag_manager = "G-0NJHGHZ0CC"
 # Color theme.
 #   Choose from `default`, `ocean`, `forest`, `dark`, `apogee`, `1950s`, `coffee`, `cupcake`, `strawberry`.
 color_theme = "1950s"
