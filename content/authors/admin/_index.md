@@ -18,7 +18,7 @@ education:
   - course: MA in Cognitive Psychology
     institution: University of Haifa
     year: 2008
-  - course: BSc in Psychology and Music (double degree)
+  - course: BA in Psychology and Music (double degree)
     institution: University of Haifa
     year: 2005
 name: Einat Rashal

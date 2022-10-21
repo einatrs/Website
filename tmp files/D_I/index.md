@@ -40,10 +40,10 @@ subtitle: 'Create a beautifully simple website in under 10 minutes :rocket:'
 summary: Create a beautifully simple website in under 10 minutes.
 tags:
 - academia
-title: 'academia: the website builder for Hugo'
+title: 'Diversity and Inclusion. Who am I representing? '
 ---
 
-**Create a free website with academia using Markdown, Jupyter, or RStudio. Choose a beautiful color theme and build anything with the Page Builder - over 40 _widgets_, _themes_, and _language packs_ included!**
+Belonging to a minority group, or in my case several groups, can be frustrating, discouraging and overwhelming at times. 
 
 [Check out the latest **demo**](https://academia-demo.netlify.com/) of what you'll get in less than 10 minutes, or [view the **showcase**](https://sourcethemes.com/academic/#expo) of personal, project, and business sites.
 
