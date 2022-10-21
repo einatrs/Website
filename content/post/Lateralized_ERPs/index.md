@@ -3,8 +3,8 @@ authors:
 - admin
 categories: []
 date: "2022-08-17T00:00:00Z"
-draft: true
-featured: false
+draft: flase
+featured: true
 gallery_item:
 
 image:
