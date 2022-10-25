@@ -36,7 +36,7 @@ OK, that's a lot to digest, so let's break it down:
 
 Research in the domain of perceptual organization investigates the computations underlying these processes.
 
-
+Broadly speaking, we investigate two organizational processes - **grouping** and **figure-ground segmentation**. Grouping processes determine which elements go together and are segregated from other elements. Figure-ground segmentation, or figural-assignment, refers to the process in which one part of the visual field is designated as the figure, while the rest is designated as a background. The case of the three red dots at the beginning of this post is an example of grouping.
 
 
 
