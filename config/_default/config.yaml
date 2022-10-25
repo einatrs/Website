@@ -1,7 +1,7 @@
 title: ""
 baseURL: https://einatrashalweb.netlify.app
 copyright: Copyright &copy; {year}
-googleAnalytics: ''
+googleAnalytics: 'G-0NJHGHZ0CC'
 disqusShortname: ''
 theme: academia-hugo
 enableGitInfo: no
