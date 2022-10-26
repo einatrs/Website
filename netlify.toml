@@ -3,7 +3,7 @@
   command = "hugo --minify --gc"
   
 [build.environment]
-  HUGO_VERSION = "0.87.0"
+  HUGO_VERSION = "0.101.0"
   HUGO_BASEURL = "/"
 
 [[headers]]
@@ -14,3 +14,7 @@
   X-XSS-Protection = "1; mode=block"
   Referrer-Policy = "same-origin"
   Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+  
+[context.production.environment]
+  HUGO_ENV = "production"
+  
