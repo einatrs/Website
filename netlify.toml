@@ -1,10 +1,10 @@
 [build]
   publish = "public"
-  command = "hugo --gc --minify -b $https://einatrashalweb.netlify.app"
+  command = "hugo --minify --gc"
   
 [build.environment]
   HUGO_VERSION = "0.101.0"
-  HUGO_BASEURL = "/"
+  HUGO_BASEURL = "https://einatrashalweb.netlify.app"
   
 [context.production.environment]
   HUGO_ENV = "production"
