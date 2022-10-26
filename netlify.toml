@@ -1,10 +1,13 @@
 [build]
   publish = "public"
-  command = "hugo --minify --gc"
+  command = "hugo --gc --minify -b $URL"
   
 [build.environment]
   HUGO_VERSION = "0.101.0"
   HUGO_BASEURL = "/"
+  
+[context.production.environment]
+  HUGO_ENV = "production"
 
 [[headers]]
   for = "/*" # This defines which paths this specific [[headers]] block will cover.
@@ -15,6 +18,5 @@
   Referrer-Policy = "same-origin"
   Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
   
-[context.production.environment]
-  HUGO_ENV = "production"
+
   
