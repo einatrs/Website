@@ -36,8 +36,45 @@ OK, that's a lot to digest, so let's break it down:
 
 Research in the domain of perceptual organization investigates the computations underlying these processes.
 
-Broadly speaking, we investigate two organizational processes - **grouping** and **figure-ground segmentation**. Grouping processes determine which elements go together and are segregated from other elements. Figure-ground segmentation, or figural-assignment, refers to the process in which one part of the visual field is designated as the figure, while the rest is designated as a background. The case of the three red dots at the beginning of this post is an example of grouping.
+Broadly speaking, we investigate two organizational processes - **grouping** and **figure-ground segmentation**. Grouping processes determine which elements go together and are segregated from other elements. Figure-ground segmentation, or figural-assignment, refers to the process in which one part of the visual field is designated as the figure, while the rest is designated as a background. 
 
+&nbsp;  
 
+#### Examples of grouping cues include:
 
+***Proximity:*** elements that are closer together in space are grouped with each other.
+![png](./prox.png)  
 
+***Similarity by color:*** elements that have the same color are grouped with each other.
+![png](./color.png)  
+
+***Similarity by shape:*** elements that have the same shape are grouped with each other.
+![png](./shape.png)  
+
+***Similarity by orientation:*** elements that have the same orientation are grouped with each other.
+![png](./orientation.png)  
+
+***Continuity:*** (also called "good continuation" or "alignment") elements that follow a certain path are grouped with each other.
+![png](./continuity.png)  
+
+***Common region:*** elements that occupy the same region (i.e., enclosed within the same contour) are grouped with each other.
+![png](./CR.png)  
+
+***Connectedness:*** elements that are connected are grouped with each other.
+![png](./connect.png)  
+
+&nbsp;  
+
+#### Examples of figural-assignment cues include:
+
+***Convexity:*** a convex area is more likely to be perceived as the figure than a convex area.
+![png](./convex.png)
+
+***Symmetry:*** a symmetrical area is more likely to be perceived as the figure than an asymmetrical area.
+![png](./symmetry.png)
+
+***Lower region:*** the area in the lower region of the visual field is more likely to be perceived as the figure than the area in the upper region.
+![png](./lower.png)
+
+***Wide base:*** an area with a wider base is more likely to be perceived as the figure than an area with a wider top part.
+![png](./wide.png)
