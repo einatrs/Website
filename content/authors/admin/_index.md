@@ -46,6 +46,8 @@ user_groups:
 I am a researcher working in the field of visual perception and attention.
 I did my studies at the University of Haifa in Israel. Since graduating, I have held postdoc positions at KU Leuven and UGent in Belgium and at EPFL in Switzerland. I have 10 years of teaching experience at different higher education institutions in Israel. My favorite subject to teach is Research Methods and Statistics. 
 
+&nbsp;  
+
 Research and other interests:
 - perceptual grouping
 - figure-ground organization
@@ -53,5 +55,8 @@ Research and other interests:
 - programming in RStudio
 - data science
 - Bayesian statistics
+
+&nbsp;  
+
 
 **This website is under construction. If you have any questions regarding the content, you can contact me via email.**

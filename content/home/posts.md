@@ -8,7 +8,7 @@ active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
 title = "Posts"
-#subtitle = "from coding to advocating for diversity and inclusion"
+#subtitle = "some concepts explained simply"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.

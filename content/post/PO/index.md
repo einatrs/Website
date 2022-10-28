@@ -14,7 +14,7 @@ gallery_item:
 projects: []
 subtitle: Is it a column or a triangle?
 summary: The abundance of visual information our brain receives through the eyes is sorted and organized to construct coherent objects
-tags: []
+tags: [Perceptual Organization]
 title: Perceptual organization makes sense of the world 
 ---
 

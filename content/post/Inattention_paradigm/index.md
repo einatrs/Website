@@ -12,10 +12,10 @@ image:
   focal_point: ""
   preview_only: false
 projects: []
-subtitle: Asymmetric brain activity
-#summary: Learn how to blog in academia using Jupyter notebooks
-tags: []
-title: Lateralized ERPs
+subtitle: Studying perception outside the focus of attention
+#summary: 
+tags: [Inattention, Perceptual Organization]
+title: The inattention paradigm
 ---
 
 
