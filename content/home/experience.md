@@ -24,7 +24,7 @@ date_format = "Jan 2006"
   location = "Belgium"
   date_start = "2019-01-01"
   date_end = ""
-  description = "Project: *MAC-BRAIN*"
+  description = "Project: *MAC-BRAIN: “Developing a Multi-scale account of Attentional Control as the constraining interface between vision and action: A cross-species investigation of relevant neural circuits in the human and macaque Brain”*"
 
 [[experience]]
   title = "Postdoc Fellow"
@@ -33,7 +33,7 @@ date_format = "Jan 2006"
   location = "Switzerland"
   date_start = "2016-07-01"
   date_end = "2018-12-31"
-  description = "Project: *Perceptual Dominance*"
+  description = "Project: *Perceptual Dominancy: “Using Psychophysical and Neuroimaging Tools To Identify The Mechanism Underlying Perceptual Dominancy In Vision”*"
   
 [[experience]]
   title = "Postdoc Fellow"
@@ -42,6 +42,6 @@ date_format = "Jan 2006"
   location = "Belgium"
   date_start = "2015-08-01"
   date_end = "2016-06-30"
-  description = "Project: *Attentional Requirements of Perceptual Organization in Depth*"
+  description = "Project: *“Can depth perception influence the need for attentional resources in perceptual organization?”*"
 
 +++

@@ -2,7 +2,7 @@
 authors:
 - admin
 categories: []
-date: "2022-10-27T00:00:00Z"
+date: "2022-10-28T00:00:00Z"
 draft: false
 featured: true
 gallery_item:

@@ -1,0 +1,77 @@
+---
+title: "Linear regression"
+author: "Einat Rashal"
+date: '2022-10-28T21:13:14-05:00'
+categories:
+- R
+- Statistics
+tags:
+- R Markdown
+- plot
+- tidyverse
+- regression
+---
+
+
+
+<p>A linear model <strong>describes a relationship between two variables</strong> - how does one variable changes when a change occurs in the other one?</p>
+<p>For example, you know how many snacks you need to buy according to the number of people you invite over to hang out.</p>
+<p><img src="chips.png" /></p>
+<p><strong>This relationship has only one direction</strong> - when values of one variable increase, the values of the other one can either increase (i.e., a positive correlation), or decrease (i.e., a negative correlation), but never increase for some values and at the same time decrease for others.</p>
+<p><strong>Regression models are used to make predictions</strong> - once we have computed a linear model and know what the relationship between the variables is, we can predict the value of one variable from a value of the other.</p>
+<p>Normally, you wouldn’t compute a regression model to plan your shopping for a party. Still, the principle idea is the same when we study human behavior and cognitive mechanisms.</p>
+<p>Let’s look at another question - <em>Is there a relationship between the time spent browsing shows on Netflix until choosing what show to watch and the satisfaction rate given to that show after watching it?</em> This question may interest psychologists studying satisfaction, UX experts designing the app interface, or data scientists consulting the company on strategies to prevent customers from canceling their subscriptions.</p>
+<p>The next bits show how to compute, interpret and visualize a linear regression in R using the tidyverse package. The full code and the code for creating the dataset can be found <a href="https://github.com/einatrs/lm_tutorial/commit/7c9740da2991f3374e5e9fb5f15eb8a9cbcbb463">here</a>.</p>
+<pre class="r"><code>library(tidyverse)
+#importing the csv file with the data
+netflix.ds1 &lt;- read.csv(&quot;netflix.ds.csv&quot;) #this is a fake dataset. you can find the code to create it in the link above.
+
+#getting an impression of the data 
+netflix.ds1 %&gt;% glimpse </code></pre>
+<pre><code>## Rows: 1,000
+## Columns: 4
+## $ X             &lt;int&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 1…
+## $ ID            &lt;int&gt; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 1…
+## $ Browsing_Time &lt;dbl&gt; 11.453378, 11.980986, 11.189027, 9.340652, 12.663485, 10…
+## $ Satisfaction  &lt;dbl&gt; 8.068539, 6.702756, 7.115325, 6.452151, 8.119273, 5.7369…</code></pre>
+<p>The important information here is that we have 1000 observations and 4 variables. The variables we are interested in are in the third and fourth rows: <strong>Browsing_Time</strong> is given in minutes and <strong>Satisfaction</strong> is a rating between 0 (<em>“that was a waste of time”</em>) and 10 (<em>“that show transformed my life!”</em>).</p>
+<p>Now we can compute the regression model. It’s very easy. We call the <strong>lm</strong> function and tell it that <em>Satisfaction</em> is distributed as a function of <em>Browsing_Time</em> :</p>
+<pre class="r"><code>#computing a linear regression
+netflix.model.1 &lt;- lm(Satisfaction ~ Browsing_Time, data = netflix.ds1)</code></pre>
+<p>You will notice that we only specify the two variables whose relationship we are interested in (y,x), but you might recall that the regression formula includes also an intercept (a) and a slope (b): y = a + bx. What the lm function does, is estimate a and b according to the values of y and x provided by the data.</p>
+<p>Let’s take a look.</p>
+<pre class="r"><code>summary(netflix.model.1)</code></pre>
+<pre><code>## 
+## Call:
+## lm(formula = Satisfaction ~ Browsing_Time, data = netflix.ds1)
+## 
+## Residuals:
+##      Min       1Q   Median       3Q      Max 
+## -2.21064 -0.44376 -0.00011  0.43568  1.91394 
+## 
+## Coefficients:
+##               Estimate Std. Error t value Pr(&gt;|t|)    
+## (Intercept)     0.4425     0.1965   2.252   0.0245 *  
+## Browsing_Time   0.6210     0.0196  31.677   &lt;2e-16 ***
+## ---
+## Signif. codes:  0 &#39;***&#39; 0.001 &#39;**&#39; 0.01 &#39;*&#39; 0.05 &#39;.&#39; 0.1 &#39; &#39; 1
+## 
+## Residual standard error: 0.6349 on 998 degrees of freedom
+## Multiple R-squared:  0.5014, Adjusted R-squared:  0.5009 
+## F-statistic:  1003 on 1 and 998 DF,  p-value: &lt; 2.2e-16</code></pre>
+<p>We can see in the first column of the coefficients section the intercept and the slope for Browsing_Time. The second column contains the estimated intercept and slope, and we can see in the last two columns the significance of the t-tests on these estimations (tested against zero).</p>
+<p>What we are most interested in is the slope - it is highly significant (see the three asterisks), which means it is different than zero (i.e., no correlation), and the estimate for it is positive (0.6210), which means that an increase in browsing time goes with an increase in the satisfaction. More than that, for every minute of browsing time, there is an increase of 0.6 points in the satisfaction rating.</p>
+<p>Other important information is given in the last section about R-squared: 0.5009, which means that 50% of the variance in the satisfaction ratings in our data can be explained by the browsing time.</p>
+<p>To plot our data and the regression line we will use ggplot2, which is a part of tidyverse. I also include here commands from the ggpubr package that add the regression formula and R-square from our model.</p>
+<pre class="r"><code>#making a nice plot with the formula and regression line
+library(ggpubr)
+
+netflix.plot1 &lt;- netflix.ds1 %&gt;% ggplot(aes(x=Browsing_Time, y=Satisfaction)) + 
+    geom_point() +
+    stat_smooth(method=&quot;lm&quot;, se=F) +
+    stat_regline_equation(label.x=11.5, label.y = 4.5, aes(label = ..eq.label..), size=5) +
+    stat_regline_equation(label.x=11.5, label.y = 4, aes(label = ..rr.label..), size=5) +
+    theme_minimal(base_size = 16)
+
+print(netflix.plot1)</code></pre>
+<p><img src="staticunnamed-chunk-4-1.png" width="672" /></p>
