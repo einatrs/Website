@@ -3,7 +3,7 @@ authors:
 - admin
 categories: []
 date: "2022-10-27T00:00:00Z"
-draft: true
+draft: false
 featured: true
 gallery_item:
 
