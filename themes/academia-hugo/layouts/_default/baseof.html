@@ -3,10 +3,6 @@
 
 {{ partial "site_head.html" . }}
 
-  {{ if .Site.Params.GoogleAnalyticsID }}
-  {{ partial "analytics-gtag.html" . }}
-  {{ end }}
-
 <body id="top" data-spy="scroll" data-target="{{ if or .IsHome (eq .Type "widget_page") }}#navbar-main{{else}}#TableOfContents{{end}}" data-offset="71" {{ if not (.Scratch.Get "light") }}class="dark"{{end}}>
 
   {{ partial "search" . }}
