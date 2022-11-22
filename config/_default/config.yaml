@@ -1,5 +1,5 @@
 title: ""
-baseURL: http://main--einatrashalweb.netlify.app
+baseURL: "http://main--einatrashalweb.netlify.app"
 copyright: Copyright &copy; {year}
 googleAnalytics: "G-0NJHGHZ0CC"
 disqusShortname: ''
