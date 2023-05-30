@@ -23,7 +23,7 @@ date_format = "Jan 2006"
   company_url = ""
   location = "Belgium"
   date_start = "2019-01-01"
-  date_end = ""
+  date_end = "2022-12-31"
   description = "Project: *MAC-BRAIN: “Developing a Multi-scale account of Attentional Control as the constraining interface between vision and action: A cross-species investigation of relevant neural circuits in the human and macaque Brain”*"
 
 [[experience]]
