@@ -3,7 +3,7 @@ date: "2022-08-16T00:00:00Z"
 external_link: ""
 image:
 #  caption: Photo by rawpixel on Unsplash
-  focal_point: Smart
+  focal_point: Center
 links:
 # - icon: twitter
 #   icon_pack: fab
