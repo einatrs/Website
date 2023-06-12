@@ -10,9 +10,8 @@ authors:
 - Leonardo Chelazzi
 - admin
 
-
 date: "2023-06-01T00:00:00Z"
-doi: "https://doi.org/10.3758/s13414-022-02636-7"
+doi: "10.3758/s13414-023-02728-y"
 featured: true
 image: 
   # caption: 'Image credit: #[**Unsplash**](https://unsplash.com/photos/jdD8gXaTZsc)'
@@ -30,7 +29,7 @@ tags:
 - Attention
 - Cueing
 - EEG
-title: Integrated effects of top-down attention and statistical learning during visual search: An EEG study
+title: Integrated effects of top-down attention and statistical learning during visual search; An EEG study
 ---
 
 {{% alert note %}}
