@@ -43,20 +43,21 @@ user_groups:
 - Visitors
 ---
 
-I am a researcher working in the field of visual perception and attention.
-I did my studies at the University of Haifa in Israel. Since graduating, I held postdoc positions at KU Leuven and UGent in Belgium and at EPFL in Switzerland. I currently hold a lecturer position in the School of Psychology at Keele University in the UK. 
+I am a researcher working in the field of visual perception and attention, currently holding a lecturer position at the School of Psychology at Keele University in the UK. 
 
-I have 10 years of teaching experience at different higher education institutions in Israel. My favorite subject to teach is Research Methods and Statistics. 
+Before moving to the UK, I held postdoc positions at KU Leuven and UGent in Belgium and at EPFL in Switzerland. I did my studies at the University of Haifa in Israel, and taught at several HEI in Israel for a long time. At Keele I am teaching modules on cognitive and biological psychology as well as quantitative research methods.
+
+Among my roles at Keele, I am the postgraduate research director and representative of the NWSSDTP scheme at the School of Psychology, as well as the research group lead for the cognition, brain and behavior stream. 
 
 &nbsp;  
 
 Research and other interests:
-- perceptual grouping
-- figure-ground organization
-- prioritization of attention control signals
+- perceptual organization
+- attention control
+- EEG
+- Bayesian statistics
 - programming in RStudio
 - data science
-- Bayesian statistics
 
 &nbsp;  
 
