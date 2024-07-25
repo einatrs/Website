@@ -3,9 +3,9 @@ authors:
 - admin
 categories: []
 date: "2024-07-25T00:00:00Z"
-draft: true
-featured: true
-gallery_item:
+draft: false
+featured: false
+gallery_item: 
 
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/CpkOjOcXdUY)'
